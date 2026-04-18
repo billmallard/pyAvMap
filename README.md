@@ -80,16 +80,6 @@ pyAvMap is loaded automatically by [pyEfis](../pyEfis) when the `MAP_PATH` envir
 [faa-cifp-data] ──→ waypoint/procedure overlays ──→ [pyAvMap]
 ```
 
-## Role in the MAOS Ecosystem
-
-pyAvMap provides the **IFR situational awareness layer** for the MAOS cockpit display. Combined with [faa-cifp-data](../faa-cifp-data), it can overlay:
-
-- Ownship position on IFR low enroute charts
-- Waypoints and fixes from the FAA CIFP database
-- Airway structure for en-route navigation context
-
-For a full IFR navigation suite, flight plan routing and CDI/XTE computation would be added as a layer above pyAvMap, publishing cross-track error to FIX-Gateway for CDI needle deflection in pyEfis.
-
 ## Important Disclaimer
 
 > pyAvMap is developed for Experimental Amateur-Built aircraft use only.  
